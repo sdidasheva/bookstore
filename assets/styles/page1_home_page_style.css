@@ -1,0 +1,372 @@
+
+.hp_header_title {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+
+.hp_header_btnsearch {
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp_header_basket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp_welcome_title {
+    font-family: 'Playfair Display', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 36px;
+    color: black;
+}
+
+.hp_welcome_text {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+.hp_main_title {
+    font-family: 'Playfair Display', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: black;
+}
+
+.hp_authors_name {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    color: black;
+}
+
+.hp_arrivals_bookname {
+    font-family: 'Playfair Display', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: black;
+    text-align: left;
+    margin-bottom: 0%;
+}
+
+.hp_arrivals_authorname {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #4F4F4F;
+    text-align: left;
+}
+
+.hp_genres_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hp_genres_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hp_genres_imagecontainer {
+    width: 76px;
+    height: 76px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.hp_genres_image {
+    width: 32px;
+    height: 32px;
+}
+
+.hp_genres_text {
+    width: 47px;
+    height: 34px;
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    color: #4F4F4F;
+    justify-content: center;
+}
+
+.hp_footer_title {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #53889D;
+    margin-top: 10%;
+}
+
+.hp_footer_link {
+    text-decoration: none;
+    text-align: center;
+}
+
+.hp_footer_link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .hp_header {
+        display: grid;
+        grid-template-columns: 3fr 4fr 1fr;
+        grid-template-rows: 48px;
+        padding: 1% 10% 1% 10%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+    }
+
+    .hp_header_title {
+        font-size: 22px;
+    }
+
+    .hp_header_titlelink {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .hp_header_titlelink:hover {
+        text-decoration: none;
+    }
+
+    .hp_header_btnsearch {
+        background-color: #EFEFEF;
+        border-color: #EFEFEF;
+        border-radius: 40px;
+        justify-content: flex-end;
+        padding-right: 5%;
+
+    }
+
+    .hp_header_basket {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hp_main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 12% 15% 12% 13% 38%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .hp_welcome {
+        padding-top: 6%;
+        text-align: center;
+    }
+
+    .hp_popularlist {
+        text-align: center;
+    }
+
+    .hp_main_title {
+        font-size: 24px;
+    }
+
+    .hp_authors {
+        text-align: center;
+    }
+
+    .hp_authors_items {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        overflow-x: hidden;
+        max-width: 1000px;
+        margin-left: 11%;
+        margin-top: 5%;
+    }
+
+    .hp_authors_item {
+        margin-right: 7%;
+    }
+
+    .hp_authors_name {
+        font-size: 14px;
+    }
+
+    .hp_arrivals_bookname {
+        font-size: 18px;
+    }
+
+    .hp_arrivals_authorname {
+        font-size: 14px;
+    }
+
+    .hp_arrivals {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .hp_arrivals_books {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: hidden;
+        max-width: 1000px;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    .hp_arrivals_book {
+        margin-right: 5%;
+    }
+
+    .hp_genres {
+        text-align: center;
+        margin-top: 28%;
+        margin-bottom: 5%;
+    }
+
+    .hp_genres_text {
+        font-size: 16px;
+    }
+
+    .hp_footer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 56px;
+        padding: 3% 10% 3% 10%;
+        background: #FFFFFF;
+        box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
+    }
+
+    .hp_footer_title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hp_header {
+        display: grid;
+        grid-template-columns: 5fr 1fr 1fr;
+        grid-template-rows: 48px;
+        padding: 1% 4% 1% 6%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+        margin-right: -7%;
+    }
+
+    .hp_header_titlelink {
+        padding-top: 4%;
+    }
+
+    .hp_header_titlelink:hover {
+        text-decoration: none;
+    }
+
+    .hp_header_titleweb {
+        font-size: 0%;
+    }
+
+    .hp_main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15% 15% 12% 18% 30%;
+        margin-left: 6%;
+    }
+
+    .hp_welcome {
+        margin-right: 7%;
+        padding-top: 6%;
+    }
+
+    .hp_popularlist_image {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        max-width: 100vw;
+        margin-top: -3%;
+    }
+
+    .hp_authors_items {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        max-width: 100vw;
+    }
+
+    .hp_authors_item {
+        margin-right: 16px;
+    }
+
+    .hp_arrivals_books {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        max-width: 100vw;
+    }
+
+    .hp_arrivals_book {
+        margin-right: 2%;
+    }
+
+    .hp_genres {
+        margin-top: 35%;
+        margin-right: 5%;
+    }
+
+    #hp_genres_container {
+        margin-left: -4;
+    }
+
+    .hp_footer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10%;
+        margin-right: -7%;
+        height: 56px;
+        padding: 8% 0 5% 0;
+        background: #FFFFFF;
+        box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
+    }
+
+    .hp_footer_link {
+        display: flex;
+        flex-flow: column wrap;
+    }
+}

@@ -1,0 +1,608 @@
+.hp_header_title {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+
+.hp_header_btnsearch {
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp_header_basket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    display: grid;
+    grid-template-areas:
+        "photo photo"
+        "name name"
+        "city city"
+        "following followers"
+        "following_number followers_number";
+    grid-template-rows: minmax(min-content, max-content);
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 2%;
+}
+
+.profile_photo {
+    grid-area: photo;
+}
+
+.profile_name {
+    grid-area: name;
+}
+
+.profile_city {
+    grid-area: city;
+}
+
+.profile_following {
+    grid-area: following;
+    padding-top: 5vh;
+}
+
+.profile_followers {
+    grid-area: followers;
+    padding-top: 5vh;
+}
+
+.profile_following_number {
+    grid-area: following_number;
+    padding-top: 2vh;
+}
+
+.profile_followers_number {
+    grid-area: followers_number;
+    padding-top: 2vh;
+}
+
+.f_name {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.f_city {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #828282;
+}
+
+.f_follow {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 10px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.f_follow_number {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.favorite_genres {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 1%;
+}
+
+.favorite_genres_1 {
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+    border-radius: 8px;
+    width: 79px;
+    height: 24px;
+    padding-top: 5px;
+}
+
+.favorite_genres_2 {
+    background: linear-gradient(90deg, #F3A492 0%, #D96F6E 100%), #C4C4C4;
+    border-radius: 8px;
+    width: 81px;
+    height: 24px;
+    padding-top: 5px;
+
+}
+
+.favorite_genres_3 {
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+    border-radius: 8px;
+    width: 123px;
+    height: 24px;
+    padding-top: 5px;
+}
+
+.favorite_genres_4 {
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+    border-radius: 8px;
+    width: 149px;
+    height: 24px;
+    padding-top: 5px;
+}
+
+.favorite_genres_5 {
+    background: linear-gradient(90deg, #BBD1D9 0%, #F2D05C 92.86%);
+    border-radius: 8px;
+    width: 87px;
+    height: 24px;
+    padding-top: 5px;
+}
+
+.favorite_genres_6 {
+    background: linear-gradient(90deg, #D96F6E 0%, #F2D05C 100%);
+    border-radius: 8px;
+    width: 173px;
+    height: 24px;
+    padding-top: 5px;
+}
+
+.favorite_genres_7 {
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+    border-radius: 8px;
+    width: 102px;
+    height: 24px;
+    padding-top: 5px;
+}
+
+.profile_title {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.profile_purchased_19 {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #53889D;
+}
+
+.profile_purchased_bookname {
+    font-family: 'Playfair Display', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: black;
+    text-align: left;
+    margin-bottom: 0%;
+}
+
+.profile_purchased_author {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #4F4F4F;
+    text-align: left;
+}
+
+.profile_purchased_linkview {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    color: #D96F6E;
+}
+
+.profile_purchased_linkview:hover {
+    text-decoration: underline;
+}
+
+.profile_purchased_link {
+    text-align: center;
+}
+
+.profile_footer_title {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #53889D;
+    margin-top: 10%;
+}
+
+.profile_footer_link {
+    text-decoration: none;
+    text-align: center;
+}
+
+.profile_footer_link:hover {
+    text-decoration: underline;
+}
+
+.profile_wishlist_styl {
+    padding-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .hp_header {
+        display: grid;
+        grid-template-columns: 3fr 4fr 1fr;
+        grid-template-rows: 48px;
+        padding: 1% 10% 1% 8%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+    }
+
+    #hp_header_titlemobile {
+        font-size: 0%;
+    }
+
+    .hp_header_title {
+        font-size: 22px;
+    }
+
+    .hp_header_titlelink {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .hp_header_titlelink:hover {
+        text-decoration: none;
+    }
+
+    .hp_header_btnsearch {
+        background-color: #EFEFEF;
+        border-color: #EFEFEF;
+        border-radius: 40px;
+        justify-content: flex-end;
+        padding-right: 5%;
+
+    }
+
+    .hp_header_basket {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile {
+        margin: 2% 15% 0 15%;
+    }
+
+    .profile_favoritegenres {
+        margin: 2% 10% 2% 10%;
+    }
+
+    .profile_title_favorite {
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    .favorite_genres_text {
+        margin: 0 1% 0 1%;
+        font-size: 14px;
+    }
+
+    .grid_fv1,
+    .grid_fv2,
+    .grid_fv3 {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .profile_purchased {
+        margin: 3% 10% 2% 10%;
+    }
+
+    .profile_purchased_text {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile_title {
+        font-size: 24px;
+    }
+
+    .profile_purchased_19 {
+        font-size: 18px;
+    }
+
+    .profile_purchased_books {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: hidden;
+        max-width: 1000px;
+        justify-content: center;
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-top: 1%;
+    }
+
+    .profile_purchased_book {
+        margin-right: 5%;
+    }
+
+    .profile_purchased_linkview {
+        font-size: 14px;
+    }
+
+    .gallery__grid_w {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 2vw;
+        justify-content: center;
+    }
+
+    .wishlist_w {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30px 1fr 50px;
+        justify-items: center;
+        padding-top: 30px;
+        margin-bottom: 5%;
+    }
+
+    .wishlist_w-item:nth-child(1) {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-self: center;
+    }
+
+    .wishlist_w-item:nth-child(2) {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding-top: 3vh;
+    }
+
+    .wishlist_w-item:nth-child(3) {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        justify-self: center;
+        padding-top: 3vh;
+    }
+
+    .f_wishlist_w {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 24px;
+        line-height: 20px;
+        color: #333333;
+    }
+
+    .f_wishlist_w_number {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        color: #53889D;
+    }
+
+    .f_wishlist_w_ss {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        color: #D96F6E;
+    }
+
+    .wishlist_m {
+        display: none;
+    }
+
+    .profile_footer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 56px;
+        padding: 3% 10% 3% 10%;
+        background: #FFFFFF;
+        box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
+    }
+
+    .profile_footer_title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hp_header {
+        display: grid;
+        grid-template-columns: 5fr 1fr 1fr;
+        grid-template-rows: 48px;
+        padding: 1% 4% 1% 6%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+    }
+
+    .hp_header_titlelink {
+        padding-top: 2%;
+    }
+
+    .hp_header_titlelink:hover {
+        text-decoration: none;
+    }
+
+    .hp_header_titleweb {
+        font-size: 0%;
+    }
+
+    .profile_favoritegenres {
+        margin: 5% 0 5% 6%;
+    }
+
+    .grid_fv1 {
+        display: grid;
+        grid-template-columns: 25% 25% 50%;
+        padding: 5px;
+    }
+
+    .grid_fv2 {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        padding: 5px;
+    }
+
+    .grid_fv3 {
+        display: grid;
+        grid-template-columns: 52% 48%;
+        padding: 5px;
+    }
+
+    .profile_purchased {
+        margin-left: 6%;
+    }
+
+    .profile_purchased_text {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .profile_purchased_books {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        max-width: 100vw;
+    }
+
+    .profile_purchased_book {
+        margin-right: 2%;
+    }
+
+    .gallery__grid_m {
+        display: grid;
+        grid-template-columns: repeat(3, 110px);
+        grid-template-rows: 1fr;
+        grid-gap: 4px;
+    }
+
+    .gallery__grid_m-item:nth-child(1) {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .gallery__grid_m-item:nth-child(2) {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .gallery__grid_m-item:nth-child(3) {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .wishlist_m {
+        display: grid;
+        grid-template-columns: 340px;
+        grid-template-rows: 30px 350px 50px;
+        justify-content: center;
+        margin-left: 3%;
+    }
+
+    .wishlist_m-item:nth-child(1) {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-self: start;
+    }
+
+    .wishlist_m-item:nth-child(2) {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .wishlist_m-item:nth-child(3) {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        justify-self: center;
+    }
+
+    .f_wishlist_m {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333333;
+    }
+
+    .f_wishlist_m_number {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 140%;
+        color: #53889D;
+    }
+
+    .f_wishlist_m_ss {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 140%;
+        text-align: center;
+        color: #D96F6E;
+    }
+
+    .wishlist_w {
+        display: none;
+    }
+
+    .profile_footer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 56px;
+        padding: 12% 0 1% 0;
+        background: #FFFFFF;
+        box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
+    }
+
+    .profile_footer_link {
+        display: flex;
+        flex-flow: column wrap;
+    }
+}

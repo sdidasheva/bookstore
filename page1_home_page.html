@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/image/icon_book.svg" type="image/svg">
+    <link rel="stylesheet" type="text/css" href="assets/styles/page1_home_page_style.css" />
+    
+</head>
+
+<body>
+    <header class="hp_header">
+        <ul class="nav hp_header_titlelink">
+            <li class="nav-item">
+                <a class="nav-link active hp_header_title" href="page1_home_page.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link hp_header_title hp_header_titleweb" href="#">Browse</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link hp_header_title hp_header_titleweb" href="#">Wishlist</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link hp_header_title hp_header_titleweb" href="page3_profile.html">Profile</a>
+            </li>
+        </ul>
+        <button class="hp_header_btnsearch" type="button"><img src="assets/image/header_searchicon.svg"
+                alt="Search"></button>
+        <a href="#" class="hp_header_basket"><img src="assets/image/header_bascketicon.svg" alt="Bascket">
+        </a>
+    </header>
+    <main class="hp_main">
+        <section class="hp_welcome">
+            <h1 class="hp_welcome_title">Welcome back, Jessica!</h1>
+            <p class="hp_welcome_text">We’re glad to see you just <span style="font-weight:bolder;">16 days</span> after
+                your last visit and
+                can’t wait to help you find your next page turner!</p>
+        </section>
+        <section class="hp_popularlist">
+            <h2 class="hp_main_title">Popular Lists</h2>
+            <div class="hp_popularlist_image">
+                <img class="hp_popularlist_top10image" src="assets/image/popularlist_top10.svg"
+                    alt="top 10 summer fiction">
+                <img class="hp_popularlist_youare25image" src="assets/image/popularlist_25.svg" alt="25 if you're 25">
+            </div>
+        </section>
+        <section class="hp_authors">
+            <h2 class="hp_main_title">Top 10 Authors</h2>
+            <div class="hp_authors_items">
+                <div class="hp_authors_item">
+                    <img src="assets/image/author_victoria.svg" alt="Victoria Erwards">
+                    <p class="hp_authors_name">Victoria <br> Erwards</p>
+                </div>
+                <div class="hp_authors_item">
+                    <img src="assets/image/author_connie.svg" alt="Connie Lane">
+                    <p class="hp_authors_name">Connie <br> Lane</p>
+                </div>
+                <div class="hp_authors_item">
+                    <img src="assets/image/author_wade.svg" alt="Wade Richards">
+                    <p class="hp_authors_name">Wade <br> Richards</p>
+                </div>
+                <div class="hp_authors_item">
+                    <img src="assets/image/author_mitchell.svg" alt="Mitchell Cooper">
+                    <p class="hp_authors_name">Mitchell <br> Cooper</p>
+                </div>
+                <div class="hp_authors_item">
+                    <img src="assets/image/author_irma.svg" alt="Irma Bell">
+                    <p class="hp_authors_name">Irma <br> Bell</p>
+                </div>
+                <div class="hp_authors_item">
+                    <img src="assets/image/author_darlene.svg" alt="Darlene Steward">
+                    <p class="hp_authors_name">Darlene <br> Steward</p>
+                </div>
+            </div>
+        </section>
+        <section class="hp_arrivals">
+            <h2 class="hp_main_title">Latest Arrivals</h2>
+            <div class="hp_arrivals_books">
+                <a href="page2_book_page.html" class="hp_arrivals_book">
+                    <img src="assets/image/book_conversations.svg" alt="Conversations with Friends">
+                    <h3 class="hp_arrivals_bookname">Conversations <br> with Friends</h3>
+                    <p class="hp_arrivals_authorname">Sally Rooney</p>
+                </a>
+                <div class="hp_arrivals_book hp_arrivals_bookworld">
+                    <img class="hp_arrivals_worldimage" src="assets/image/book_world.svg"
+                        alt="The world doesn’t require you">
+                    <h3 class="hp_arrivals_bookname">The world doesn’t <br> require you</h3>
+                    <p class="hp_arrivals_authorname">Rion Amilcar Scott</p>
+                </div>
+                <div class="hp_arrivals_book">
+                    <img src="assets/image/book_widow.svg" alt="The last widow">
+                    <h3 class="hp_arrivals_bookname">The last <br> widow</h3>
+                    <p class="hp_arrivals_authorname">Karin Slaughter</p>
+                </div>
+            </div>
+        </section>
+        <section class="hp_genres">
+            <h3 class="hp_main_title">Popular Genres</h3>
+            <div class="hp_genres_container" id="hp_genres_container">
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-book-shelf-100.png"></div>
+                    <div class="p">
+                        <p class="hp_genres_text">General Fiction</p>
+                    </div>
+                </div>
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-detective-100.png"></div>
+                    <p class="hp_genres_text">Crime</p>
+                </div>
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-knife-100.png"></div>
+                    <p class="hp_genres_text">Thriller</p>
+                </div>
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-heart-outline-100.png"></div>
+                    <p class="hp_genres_text">Romance</p>
+                </div>
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-geography-100.png"></div>
+                    <p class="hp_genres_text">Travel</p>
+                </div>
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-tennis-racquet-100.png"></div>
+                    <p class="hp_genres_text">Sports</p>
+                </div>
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-physics-100.png"></div>
+                    <p class="hp_genres_text">Science Fiction</p>
+                </div>
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-witch-100.png"></div>
+                    <p class="hp_genres_text">Fantasy</p>
+                </div>
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-couple-100.png"></div>
+                    <p class="hp_genres_text">Young Adult</p>
+                </div>
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-children-100.png"></div>
+                    <p class="hp_genres_text">Children's Book</p>
+                </div>
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-book-100.png"></div>
+                    <p class="hp_genres_text">Classics</p>
+                </div>
+                <div class="hp_genres_block">
+                    <div class="hp_genres_imagecontainer">
+                        <img class="hp_genres_image" src="assets/image/icons8-leaf-100.png"></div>
+                    <p class="hp_genres_text">Nature</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="hp_footer">
+        <a class="hp_footer_link" href="page1_home_page.html">
+            <img src="assets/image/icon_home.svg" alt="home">
+            <p class="hp_footer_title">home</p>
+        </a>
+        <a class="hp_footer_link" href="#">
+            <img src="assets/image/icon_browse.svg" alt="browse">
+            <p class="hp_footer_title">browse</p>
+        </a>
+        <a class="hp_footer_link" href="#">
+            <img src="assets/image/icon_wishlist.svg" alt="wishlist">
+            <p class="hp_footer_title">wishlist</p>
+        </a>
+        <a class="hp_footer_link" href="page3_profile.html">
+            <img src="assets/image/icon_profile.svg" alt="profile">
+            <p class="hp_footer_title">profile</p>
+        </a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

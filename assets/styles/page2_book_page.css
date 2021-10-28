@@ -1,0 +1,447 @@
+.hp_header_title {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+
+.hp_header_btnsearch {
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp_header_basket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bp_aboutbook_title {
+    font-family: 'Playfair Display', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+
+.bp_aboutbook_author {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.bp_aboutbook_edition {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    color: #828282;
+}
+
+.bp_aboutbook_price {
+    font-family: 'Playfair Display', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+
+.bp_aboutbook_description {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.bp_aboutbook_readmore {
+    text-decoration: none;
+    color: lightsteelblue;
+}
+
+.bp_aboutbook_readmore:hover {
+    text-decoration: underline;
+}
+
+.bp_aboutbook_btn {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #D96F6E;
+    border-radius: 8px;
+}
+
+.bp_aboutbook_btnadd {
+    background: #D96F6E;
+    border-radius: 8px;
+}
+
+.bp_aboutbook_btnwishlist {
+    background: #F3A492;
+    border-radius: 8px;
+}
+
+.bp_aboutbook_publisher {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    color: #828282;
+}
+
+.bp_genres_title {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.bp_genres_items {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bp_genres_item {
+    height: 24px;
+    border-radius: 8px;
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 5px;
+    margin: 5px;
+}
+
+.bp_genres_contemporary {
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+    width: 123px;
+}
+
+.bp_genres_fiction {
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+    width: 128px;
+}
+
+.bp_genres_title_share {
+    margin-top: 3%;
+}
+
+.bp_genres_links {
+    display: flex;
+    justify-content: center;
+}
+
+.bp_genres_link {
+    margin: 8px;
+}
+
+.bp_publications_title {
+    font-family: 'Playfair Display', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: black;
+}
+
+.bp_publications_bookname {
+    font-family: 'Playfair Display', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: black;
+    text-align: left;
+    margin-bottom: 0%;
+
+}
+
+.bp_publications_author {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #4F4F4F;
+    text-align: left;
+    margin-bottom: 0%;
+}
+
+.bp_publications_price {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #D96F6E;
+    text-align: left;
+}
+
+.bp_footer_title {
+    font-family: 'Montserrat', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #53889D;
+    margin-top: 10%;
+}
+
+.bp_footer_link {
+    text-decoration: none;
+    text-align: center;
+}
+
+.bp_footer_link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .hp_header {
+        display: grid;
+        grid-template-columns: 4fr 4fr 1fr;
+        grid-template-rows: 48px;
+        padding: 1% 10% 1% 8%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+    }
+
+    .bp_header_iconback {
+        display: none;
+    }
+
+    .hp_header_title {
+        font-size: 22px;
+    }
+
+    .hp_header_titlelink {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .hp_header_titlelink:hover {
+        text-decoration: none;
+    }
+
+    .hp_header_btnsearch {
+        background-color: #EFEFEF;
+        border-color: #EFEFEF;
+        border-radius: 40px;
+        justify-content: flex-end;
+        padding-right: 5%;
+
+    }
+
+    .hp_header_basket {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bp_aboutbook {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 2% 10% 2% 10%;
+        justify-content: center;
+    }
+
+    .bp_aboutbook_bookconversations {
+        margin-bottom: 2%;
+    }
+
+    .bp_aboutbook_author {
+        margin-bottom: 0%;
+    }
+
+    .bp_aboutbook_btn {
+        margin: 0 30% 0 30%;
+    }
+
+    .bp_aboutbook_publisher {
+        margin-top: 4%;
+    }
+
+    .bp_genres_title {
+        font-size: 20px;
+    }
+
+    .bp_genres_item {
+        font-size: 16px;
+    }
+
+    .bp_genres_contemporary {
+        width: 200px;
+    }
+
+    .bp_genres_fiction {
+        width: 205px;
+    }
+
+    .bp_genres_link {
+        margin: 14px;
+    }
+
+    .bp_publications {
+        margin: 2% 10% 2% 10%;
+    }
+
+    .bp_publications_title {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .bp_publications_books {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: hidden;
+        max-width: 1000px;
+        justify-content: center;
+        margin-top: 3%;
+        margin-left: 10%;
+
+    }
+
+    .bp_publications_book {
+        margin-right: 5%;
+    }
+
+    .bp_footer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 56px;
+        padding: 3% 10% 3% 10%;
+        background: #FFFFFF;
+        box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
+    }
+
+    .bp_footer_title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hp_header {
+        display: grid;
+        grid-template-columns: 5fr 1fr 1fr;
+        grid-template-rows: 48px;
+        padding: 1% 4% 1% 6%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+    }
+
+    .bp_header_iconback {
+        margin-bottom: 10px;
+    }
+
+    .hp_header_titlelink {
+        padding-top: 4%;
+    }
+
+    .hp_header_titlelink:hover {
+        text-decoration: none;
+    }
+
+    .hp_header_title {
+        font-size: 0%;
+    }
+
+    .bp_aboutbook {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 2% 6% 2% 6%;
+        justify-content: center;
+    }
+
+    .bp_aboutbook_bookconversations {
+        margin-bottom: 3%;
+    }
+
+    .bp_aboutbook_author {
+        margin-top: -2%;
+        margin-bottom: 0%;
+    }
+
+    .bp_aboutbook_btnadd {
+        margin-bottom: -4%;
+    }
+
+    .bp_aboutbook_btn {
+        margin: 0 10% 0 10%;
+    }
+
+    .bp_aboutbook_publisher {
+        margin: 8% 20% 0 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bp_publications {
+        margin-left: 6%;
+    }
+
+    .bp_publications_title {
+        margin-top: 3%;
+    }
+
+    .bp_publications_books {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        max-width: 767px;
+    }
+
+    .bp_publications_book {
+        margin-right: 2%;
+    }
+
+    .bp_footer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 56px;
+        padding: 12% 0 5% 0;
+        background: #FFFFFF;
+        box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
+    }
+
+    .bp_footer_link {
+        display: flex;
+        flex-flow: column wrap;
+    }
+}
